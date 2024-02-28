@@ -1,0 +1,457 @@
+
+:root{
+    --primary1 : #d2386d; /* dark pink */
+    --primary2 : #f76f83;
+    --secondary1 : #ffb797;
+    --secondary2 : #ffead0;
+    --accent : #008080;
+    --lightneutral : #fefee5;
+    --darkneutral : #884723;
+
+}
+
+
+
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: italic;
+    
+  }
+
+
+
+.cormorant {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto; 
+  font-weight: bold;
+  font-style: italic;
+}
+  
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    background-color: var(--lightneutral)
+}
+.navbar {
+   /* background-color: var(--lightneutral); */
+    overflow: hidden;
+    width: 100%;
+
+    /*
+    position: absolute;
+    top:0px;
+    left:0px;
+    */
+   
+   
+   /* padding: 10px; */
+}
+.navbar h1 {
+   float: left;
+   color: var(--primary1); 
+    padding: 14px 16px;
+    font-family: 'cormorant';
+    font-style: italic;
+    font-size: 30px;
+    
+}
+.navbar-right {
+    float: right;
+    padding: 25px;
+}
+.navbar a {
+    display: inline-block;
+    font-family: quicksand;
+    text-transform: uppercase;
+    color: var(--primary1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a:hover {
+    
+    color: var(--accent);
+}
+.navbar a.active {
+    /*background-color: #4CAF50; */
+    color: var(--accent);
+    font-weight: bold;
+}
+
+
+/* HOME */
+
+
+.mainheadvideo{
+   /* position: absolute;
+    top:0px;
+    left:0px;
+     z-index: -1; 
+    */
+    
+    width:100%;
+   
+    
+}
+
+/* SERVICES ON HOME */
+
+.brandstrategyservice
+{
+    background-color: var(--lightneutral);
+    
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: var(--primary1);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.brandstrategyservice h1{
+    font-family: 'cormorant';
+    font-style: italic;
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.brandstrategyservice .subtitle{
+    font-family: 'cormorant';
+    font-weight: bold;
+    font-size: 20px;
+    color : var(--darkneutral);
+}
+
+.rightitem
+{
+    display: inline-flex;
+    padding-top: 10%;
+}
+
+.rightitem h2{
+    font-family: 'cormorant';
+    font-style: italic;
+    font-size: 30px;
+}
+
+.rightitem ul{
+    margin-left: 10px;
+    padding-left: 10px;
+    color: var(--darkneutral);
+    
+}
+
+.rightitem li{
+    font-family: libre-baskerville-regular ;
+    text-align: left;
+    
+}
+
+.rightitem img{
+    height: 300px;
+}
+
+.rightitem .servicetext{
+   
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.leftitem
+{
+    display: inline-flex;
+    padding-top: 10%;
+}
+
+.leftitem h2{
+    font-family: 'cormorant';
+    font-style: italic;
+    font-size: 30px;
+}
+
+.leftitem ul{
+    margin-right: 10px;
+    padding-right: 10px;
+    color: var(--darkneutral);
+}
+
+.leftitem li{
+    font-family: libre-baskerville-regular ;
+    text-align: left;
+    
+}
+
+.leftitem img{
+    height: 300px;
+}
+
+
+/* ABOUT US */
+
+.aboutbg
+{
+    background-color: var(--primary1);
+}
+
+.aboutus
+{
+    display: inline-flex; 
+    margin-left: 10%; 
+    margin-right: 10%;
+    padding: 40px;
+    background-color: var(--primary1);
+}
+
+.aboutext
+{
+   margin-left: 25px;
+   margin-right: 10px;
+}
+
+.aboutext h2{
+    font-family: 'cormorant';
+    font-style: italic;
+    font-size: 45px;
+    color: var(--lightneutral);   
+}
+
+.aboutext
+{
+    font-family: 'cormorant' ;
+    color: var(--lightneutral);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer{
+    display :flexbox;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100px;   
+    margin: 30px;
+    padding: 10px;  
+    color: var(--darkneutral);
+}
+
+footer .email{
+    font-family: libre-baskerville-regular-italic ;
+}
+
+footer .sociallinks
+{
+    margin-top : 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+footer img {
+    height: 17px;
+    width: 17px;
+    padding: 2px;
+}
+
+
+footer .copyright
+{
+    display: inline-flex;
+}
+
+footer .copyright .copyrighttext
+{
+
+    font-family: libre-baskerville-regular-italic ;
+    color: #884723;
+}
+
+.p2pcrightimg
+{   background-color: var(--primary1);
+    
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 500px;
+
+    display: inline-flex;
+   
+}
+
+
+.p2pcrightimg  img
+{
+    height: 450px;
+    padding: 30px;
+
+}
+
+.p2pcrightimg .campaigntext
+{
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.p2pcrightimg .campaigntext .campaigntitle
+{
+    font-family: 'cormorant';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+    color: var(--lightneutral);   
+    padding-bottom: 20px;
+    
+}
+
+.p2pcrightimg .campaigntext .campaignsubtitle
+{
+    font-family: quicksand ;
+    padding-bottom: 20px;
+    color: var(--lightneutral);   
+    text-transform :uppercase;
+    
+}
+
+.p2pcrightimg .campaignlinks
+{
+   display: inline-block;
+   
+}
+
+.campaignbutton
+{
+    border-radius: 25px;
+    border: 1px solid var(--secondary2);
+    padding: 8px 45px;
+    background:transparent;
+    margin-top: 15px;
+    margin-right: 10px;
+    
+    cursor: pointer;
+    font-family: cormorant;
+    font-size : 20px;
+    color: var(--secondary2);
+    font-weight: bold;
+}
+
+.campaignbutton:hover
+{
+    
+    background-color: var(--lightneutral);
+    color: var(--primary1);
+    box-shadow: 3px 3px 1px ;
+}
+
+
+
+
+.p2pc1s4s
+{
+    display: inline-flex;
+    background-color: #f76f83;
+    width: 100%;
+}
+
+
+.p2pc1s4s .sectionitem
+{
+    display: block;
+    width: 25%;
+    background-color: #fefee5;
+    
+    text-align: center;
+    height: 300px;
+    
+    padding-top : 100px;
+}
+
+.sectionitem img
+{
+    height: 80px;
+    width: 80px;
+    
+}
+
+.sectionitem .title
+{
+
+    font-family: "cormorant";
+    font-weight: bold;
+    color: var(--primary1);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 30px;
+
+
+}
+
+
+
+
+.roundbuttonoutline{
+    border-radius: 25px;
+    border: 1px solid var(--primary1);
+    padding: 10px 50px;
+    background: transparent;
+    
+    cursor: pointer;
+    font-family: cormorant;
+    font-size : 20px;
+    color: var(--primary1);
+}
+
+
+
+.getquotebutton{
+    border-radius: 25px;
+    border: 1px solid var(--primary1);
+    padding: 10px 50px;
+    background:transparent;
+    margin-top: 15px;
+    
+    cursor: pointer;
+    font-family: cormorant;
+    font-size : 20px;
+    color: var(--primary1);
+    font-weight: bold;
+}
+
+
+
+
+
