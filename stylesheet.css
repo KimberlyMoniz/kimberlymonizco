@@ -315,6 +315,12 @@ footer .copyright .copyrighttext
 
 }
 
+.p2pcrightimg  img:hover{
+
+    height: 460px;
+    
+}
+
 .p2pcrightimg .campaigntext
 {
     display: block;
@@ -376,7 +382,6 @@ footer .copyright .copyrighttext
     color: var(--primary1);
     box-shadow: 3px 3px 1px ;
 }
-
 
 
 
@@ -449,6 +454,23 @@ footer .copyright .copyrighttext
     font-size : 20px;
     color: var(--primary1);
     font-weight: bold;
+}
+
+
+.knowmore
+{
+    padding-top: 30px;
+}
+.knowmore a{
+    text-decoration: none;
+    color : var(--secondary2);
+    font-family: libre-baskerville-regular-italic ;
+    
+}
+
+.knowmore a:hover
+{
+    text-shadow: 2px 2px 8px var(--secondary2);
 }
 
 
