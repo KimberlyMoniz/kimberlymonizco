@@ -359,6 +359,11 @@ footer .copyright .copyrighttext
    
 }
 
+.p2pcrightimg .campaignlinks a {
+    text-decoration: none;
+   
+}
+
 .campaignbutton
 {
     border-radius: 25px;
